@@ -1,0 +1,17 @@
+{
+  "name": "c2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch ./src/ -e ts --exec ./src/index.ts",
+    "start": "parcel ./index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.19",
+    "parcel-bundler": "^1.12.5"
+  }
+}
